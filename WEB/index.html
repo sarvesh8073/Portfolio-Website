@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website|Sarvesh Hiwarkar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="portfolio.js"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGOnobag.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headdertext">
+                <p>ANDROID | WEB | (YOUR INTERESTS) </p>
+                 <h1>Hi, I am <span>YOUR NAME</span>  </h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------ABOUT------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/USER2.png" alt="">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>(CHANGE THIS TEXT ACCORDING TO YUOR INTERESTS, SAMPLE TEXT ATTACHED:)Passionate about crafting Android apps and dynamic web solutions. Proficient in C++, Java, Kotlin and Python. Let's innovate together!(THE FOLLOWING TABS HAVE SAMPLES WHICH YOU CAN EDIT)</p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li>C++ <br><span>(OOP and DSA)</span></li>
+                            <li>Python<br><span>(Keras, Tensor Flow, CV2, Librosa, Tkinter, Sklearn, Matplotlib, Seaborn, Pandas, Numpy, )</span> </li>
+                            <li>Java <br><span>(Basics)</span></li>
+                            <li>JSON <br><span>(Basics)</span></li>
+                            <li>Kotlin & Jetpack Compose <br><span>(Intermediate)</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li>Android Development<br><span>(Contacts app)<br>(Tic Tac Toe game)<br>(Counter App)<br>(Recipe App)</span></li>
+                            <li>Web Development<br><span>(Portfolio Website)</span></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>(20XX-20XX)</span><br>XYZ SCHOOL</li>
+                            <li><span>(20XX-20XX)</span><br>ABC COLLEGE<br>Computer Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
